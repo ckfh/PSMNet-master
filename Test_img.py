@@ -10,9 +10,6 @@ import numpy as np
 import time
 import math
 from models import *
-
-
-
 import cv2
 from PIL import Image
 
