@@ -13,7 +13,7 @@ from models import *
 import cv2
 from PIL import Image
 
-# 2012 data /media/jiaren/ImageNet/data_scene_flow_2012/testing/11
+# 2012 data /media/jiaren/ImageNet/data_scene_flow_2012/testing/
 
 parser = argparse.ArgumentParser(description='PSMNet')
 parser.add_argument('--KITTI', default='2015',
