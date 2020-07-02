@@ -22,9 +22,9 @@ parser.add_argument('--datapath', default='/media/jiaren/ImageNet/data_scene_flo
                     help='select model')
 parser.add_argument('--loadmodel', default='./trained/pretrained_model_KITTI2015.tar',
                     help='loading model')
-parser.add_argument('--leftimg', default= './000005_11L.png',
+parser.add_argument('--leftimg', default= './im2.png',
                     help='load model')
-parser.add_argument('--rightimg', default= './000005_11R.png',
+parser.add_argument('--rightimg', default= './im6.png',
                     help='load model')                                      
 parser.add_argument('--model', default='stackhourglass',
                     help='select model')
@@ -117,7 +117,7 @@ def main():
 
         print(img)
         img = (img*256).astype('uint16')
-        cv2.imwrite(r'C:\Users\Administrator\Desktop\PSMNet-master\\5.png',img)
+        cv2.imwrite(r'C:\Users\Administrator\Desktop\PSMNet-master\\15.png',img)
 
         # img = Image.fromarray(img)
         # img.save('Test_disparity.png')
